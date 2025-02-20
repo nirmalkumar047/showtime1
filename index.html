@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="nklogo.png" />
+    <title>ShowTime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+           <div class="logo">
+
+           </div>
+           <div class="search">
+               <i class="fa-solid fa-magnifying-glass" id="ic"></i>
+              <input type="text" placeholder="Search for Movies , Events , Sports and Activites">
+            
+           </div>
+           <div class="select">
+            <label for="location">Choose a location:</label>
+            <button onclick="getLocation()">Get My Location</button>
+            <p id="city"></p>
+        
+           
+                <select id="location" name="location">
+                 <option value="new_york">Chennai</option>
+                 <option value="los_angeles">Los Angeles</option>
+                 <option value="chicago">Chicago</option>
+                 <option value="houston">Houston</option>
+                 <option value="miami">Miami</option>
+                </select>
+
+           </div>
+           <div class="sign">
+            <button class="signin">SignIn</button>
+           </div>
+           <div class="menu"><i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+        <nav class="navbar">
+
+            
+            <a href="/trailers.html">Movies</a>
+            <a href="#project">Stream</a>
+            <a href="#skill">Events</a>
+            <a href="#sports">Sports</a>
+            <a href="#contact">Activities</a>
+
+        </nav>
+    </header>
+    <section>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="/img2/shark.webp">
+                <img src="/img2/thanos.webp">
+                <img src="/images/showlogo.png"> 
+            </div>
+        </div>
+    </section>
+    <section class="Movies" style="background: linear-gradient(to right, #8D99AE, #372554);">
+        <h1 >Movies Now Showing</h1>
+        
+      <div class="scrolling-container">
+        <div class="scrolling-images">
+            <a href="/trailers.html" class="pushpa"><img src="/images/pushpa.avif" alt=""></a>
+        <a href="/trailers.html" class="chaava"><img src="/images/chaava.avif" alt=""></a>
+        <a href="/trailers.html" class="loveupa"><img src="/images/loveupa.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/Captain.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/skyforce.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/vida.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/deva.avif" alt=""></a>
+        <a href="/trailers.html" class="pushpa"><img src="/images/pushpa.avif" alt=""></a>
+        <a href="/trailers.html" class="chaava"><img src="/images/chaava.avif" alt=""></a>
+        <a href="/trailers.html" class="loveupa"><img src="/images/loveupa.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/Captain.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/skyforce.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/vida.avif" alt=""></a>
+        <a href="#chaava"><img src="/images/deva.avif" alt=""></a>
+        </div>
+      </div>
+      <div class="games">
+        <h1>Sports and games</h1>
+    </div>
+    </section>
+  
+    <section class="sports" id="sports">
+        
+        <div class="sp1">
+            <img src="/img3/sp1.avif" alt=""> <h1>Cricket</h1>
+            <p>India vs South Africa</p>
+            <p>2nd Test Match</p>
+            <p>feb12</p>
+            <p>2:30 PM IST</p>
+            <button>Book Now</button>
+        </div>
+        <div class="sp2">
+            <img src="/img3/sp2.avif" alt=""> <h1>Football</h1>
+            <p>Manchester United vs Chelsea</p>
+            <p>English Premier League</p>
+            <p>feb 14</p>
+            <p>8:30 PM IST</p>
+            <button>Book Now</button>
+        </div>
+        <div class="sp3">
+            <img src="/img3/sp3.avif" alt=""><h1>Run for a cause</h1>
+            <p>Marathon</p>
+            
+            <p>March 2</p>
+            <p>8:30 AM IST</p>
+            <button>Book Now</button>
+        </div>  
+        <div class="sp4">
+            <img src="/img3/sp4.avif" alt=""><h1>Ecorun</h1>
+            <p>Marathon</p>
+           
+            <p>March 2</p>
+            <p>8:30 AM IST</p>
+            <button>Book Now</button>
+        </div> 
+    </section>
+
+
+    <footer>
+        
+            <p>&copy; 2025 ShowTime. All rights reserved.</p>
+            <a href="https://facebook.com">Facebook</a> | 
+            <a href="https://instagram.com">Instagram</a>
+        
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

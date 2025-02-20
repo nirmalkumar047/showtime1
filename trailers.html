@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <section class="trailer">
+         <div class="pushpa">
+            <img src="/images/pushpa.avif" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g3JUbgOHgdw?si=rQqC0tlQxg4zqo5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="book">
+                <h2>Pushpa-2 The Rule</h2>
+                <button class="likes" onclick="changeColor(red)">🤍</button>
+                <p>Pushpa: The Rule is a 2024 Indian Telugu-language action thriller film written and directed by Sukumar, and produced by Naveen Yerneni and Y. Ravi Shankar under Mythri Movie Makers in association with Muttamsetty Media. The film stars Allu Arjun, Fahadh Faasil, and Rashmika Mandanna, with Jagapathi Babu, Prakash Raj, Dhananjay, and Sunil in supporting roles.</p>
+            <label for="language">Select Language:</label>
+            <select id="language" name="language">
+                <option value="Tamil">Tamil</option>
+                <option value="telugu">Telugu</option>
+                <option value="hindi">Hindi</option>
+            </select>
+                <button class="heart">Book It</button>
+            
+            </div>
+        </div>
+         <div class="chaava" id="chaava"><img src="/images/chaava.avif" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/77vRyWNqZjM?si=DMFEBN0tgikDMR3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="book">
+                <h2>Chaava</h2>
+             
+                <p>Chaava is a 2025 Indian  action thriller film directed by Manu Ashokan and written by Unni R. The film stars Nivin Pauly, Joju George, Lal, and Aditi Balan. The film is produced by Listin Stephen under the banner of Magic Frames.</p>
+                <label for="language">Select Language:</label>
+            <select id="language" name="language">
+                <option value="Tamil">Tamil</option>
+                <option value="telugu">Telugu</option>
+                <option value="hindi">Hindi</option>
+            </select>
+                <button>Book Now</button>
+            </div>
+         <div class="loveupa">
+            <img src="/images/loveupa.avif" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/s2sv3gAmexw?si=zEzwB2q20ve-ocpn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="theater-list"></div>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    </section>
+    <script>
+        window.onload = fetchNearbyTheaters;
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl1pCrXbYrBgf97LqU5nXFabMR0dignsM&libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+</html>
